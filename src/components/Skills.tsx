@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 const skills = [
   {
@@ -113,7 +114,7 @@ export default function Skills() {
                 className={`p-4 rounded-lg border-2 ${getColorClasses(cert.color)} transition-transform hover:scale-105 flex items-center gap-4`}
               >
                 <div className="flex-shrink-0">
-                  <img 
+                  <Image
                     src={cert.badge} 
                     alt={`${cert.title} badge`}
                     className="w-16 h-16 object-contain"

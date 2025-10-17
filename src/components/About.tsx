@@ -23,7 +23,7 @@ export default function About() {
           >
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">My Journey</h3>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              With over 20 years in software engineering, I've evolved from building foundational web applications 
+              With over 20 years in software engineering, I&apos;ve evolved from building foundational web applications 
               to architecting enterprise-scale cloud platforms. My career spans across shipping, entertainment, 
               and financial sectors, giving me a unique perspective on solving complex business challenges.
             </p>

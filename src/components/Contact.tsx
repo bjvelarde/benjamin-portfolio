@@ -58,7 +58,7 @@ export default function Contact() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-xl text-gray-300 text-center mb-12 max-w-2xl mx-auto"
         >
-          I'm currently available for new opportunities and would love to discuss how I can contribute to your team.
+          I&apos;m currently available for new opportunities and would love to discuss how I can contribute to your team.
         </motion.p>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -68,10 +68,10 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
+            <h3 className="text-2xl font-semibold mb-6">Let&apos;s Connect</h3>
             <p className="text-gray-300 mb-8 leading-relaxed">
               With over 20 years of experience in software engineering and technical leadership, 
-              I'm ready to bring my expertise in modern web technologies, cloud architecture, 
+              I&apos;m ready to bring my expertise in modern web technologies, cloud architecture, 
               and team leadership to your organization.
             </p>
 
